@@ -14022,12 +14022,10 @@ body:not(.theme-preset-active) footer#colophon {
 }
 
 /* Adjust positioning to prevent overlapping */
-.grid-item--width30 + .grid-item--width15,
-.grid-item--width30 + .grid-item--width30 {
-    margin-top: 16px; /* Space out from the previous elements */
+.grid-item--width15 + .grid-item--width30,
+.grid-item--width15 + .grid-item--width15 {
+    margin-top: 32px; /* Increased margin to create spacing */
 }
-
-
 
 .game--width2 {
     width: 203px;
