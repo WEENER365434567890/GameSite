@@ -13982,34 +13982,30 @@ body:not(.theme-preset-active) footer#colophon {
     overflow-wrap: break-word
 }
 
+/* Original styles for .game--width15 */
 .game--width15 {
     width: 164px;
     height: 164px;
     margin-bottom: 16px;
     border-radius: 1em;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .game--width15 a {
-    color: #6bf8ff
+    color: #6bf8ff;
 }
 
-.game--width15 img {
-    width: 164px;
-    height: 164px;
-    object-fit: cover
-}
-
+.game--width15 img,
 .game--width15 video {
     width: 164px;
     height: 164px;
-    object-fit: cover
+    object-fit: cover;
 }
 
+/* New styles for larger version */
 .game--width30 {
     width: 328px; /* Doubled width */
     height: 328px; /* Doubled height */
-    margin-bottom: 32px; /* Increased margin */
     border-radius: 1.5em; /* Slightly increased border radius */
     overflow: hidden;
 }
@@ -14018,17 +14014,19 @@ body:not(.theme-preset-active) footer#colophon {
     color: #6bf8ff;
 }
 
-.game--width30 img {
-    width: 328px; /* Doubled width */
-    height: 328px; /* Doubled height */
-    object-fit: cover;
-}
-
+.game--width30 img,
 .game--width30 video {
     width: 328px; /* Doubled width */
     height: 328px; /* Doubled height */
     object-fit: cover;
 }
+
+/* Adjust positioning to prevent overlapping */
+.grid-item--width30 + .grid-item--width15,
+.grid-item--width30 + .grid-item--width30 {
+    margin-top: 16px; /* Space out from the previous elements */
+}
+
 
 
 .game--width2 {
