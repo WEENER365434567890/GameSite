@@ -13982,44 +13982,28 @@ body:not(.theme-preset-active) footer#colophon {
     overflow-wrap: break-word
 }
 
-/* Original styles for .game--width15 */
 .game--width15 {
     width: 164px;
     height: 164px;
     margin-bottom: 16px;
     border-radius: 1em;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .game--width15 a {
-    color: #6bf8ff;
+    color: #6bf8ff
 }
 
-.game--width15 img,
+.game--width15 img {
+    width: 164px;
+    height: 164px;
+    object-fit: cover
+}
+
 .game--width15 video {
     width: 164px;
     height: 164px;
-    object-fit: cover;
-}
-
-/* Original styles for .game--width15 */
-.game--width15 {
-    width: 164px;
-    height: 164px;
-    margin-bottom: 16px;
-    border-radius: 1em;
-    overflow: hidden;
-}
-
-.game--width15 a {
-    color: #6bf8ff;
-}
-
-.game--width15 img,
-.game--width15 video {
-    width: 164px;
-    height: 164px;
-    object-fit: cover;
+    object-fit: cover
 }
 
 .game--width2 {
