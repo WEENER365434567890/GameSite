@@ -14002,9 +14002,29 @@ body:not(.theme-preset-active) footer#colophon {
     object-fit: cover;
 }
 
+/* Original styles for .game--width15 */
+.game--width15 {
+    width: 164px;
+    height: 164px;
+    margin-bottom: 16px;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.game--width15 a {
+    color: #6bf8ff;
+}
+
+.game--width15 img,
+.game--width15 video {
+    width: 164px;
+    height: 164px;
+    object-fit: cover;
+}
+
 /* New styles for larger version */
 .game--width30 {
-    width: 50%; /* Set width to 50% of the container */
+    width: 50%; /* Set width to 50% of the parent container */
     height: 328px; /* Doubled height */
     border-radius: 1.5em; /* Slightly increased border radius */
     overflow: hidden;
@@ -14026,6 +14046,7 @@ body:not(.theme-preset-active) footer#colophon {
 .grid-item--width15 + .grid-item--width15 {
     margin-top: 32px; /* Increased margin to create spacing */
 }
+
 
 .game--width2 {
     width: 203px;
