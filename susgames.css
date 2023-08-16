@@ -14006,13 +14006,37 @@ body:not(.theme-preset-active) footer#colophon {
     object-fit: cover
 }
 
-.game--width15 .text {
+.game--width16 {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 16px;
+    border-radius: 1em;
+    overflow: hidden
+}
+
+.game--width16 a {
+    color: #6bf8ff
+}
+
+.game--width16 img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover
+}
+
+.game--width16 video {
+    width: 250px;
+    height: 250px;
+    object-fit: cover
+}
+
+.game--width16 .text {
     z-index: 30;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    width: 164px;
+    width: 250px;
     font-weight: 600;
     font-size: .9em;
     padding: 9px;
