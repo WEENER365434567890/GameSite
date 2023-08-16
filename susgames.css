@@ -14004,7 +14004,7 @@ body:not(.theme-preset-active) footer#colophon {
 
 /* New styles for larger version */
 .game--width30 {
-    width: 328px; /* Doubled width */
+    width: 50%; /* Set width to 50% of the container */
     height: 328px; /* Doubled height */
     border-radius: 1.5em; /* Slightly increased border radius */
     overflow: hidden;
@@ -14016,7 +14016,7 @@ body:not(.theme-preset-active) footer#colophon {
 
 .game--width30 img,
 .game--width30 video {
-    width: 328px; /* Doubled width */
+    width: 100%; /* Take up the entire width of the container */
     height: 328px; /* Doubled height */
     object-fit: cover;
 }
