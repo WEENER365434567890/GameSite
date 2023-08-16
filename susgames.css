@@ -14006,6 +14006,31 @@ body:not(.theme-preset-active) footer#colophon {
     object-fit: cover
 }
 
+.game--width30 {
+    width: 328px; /* Doubled width */
+    height: 328px; /* Doubled height */
+    margin-bottom: 32px; /* Increased margin */
+    border-radius: 1.5em; /* Slightly increased border radius */
+    overflow: hidden;
+}
+
+.game--width30 a {
+    color: #6bf8ff;
+}
+
+.game--width30 img {
+    width: 328px; /* Doubled width */
+    height: 328px; /* Doubled height */
+    object-fit: cover;
+}
+
+.game--width30 video {
+    width: 328px; /* Doubled width */
+    height: 328px; /* Doubled height */
+    object-fit: cover;
+}
+
+
 .game--width2 {
     width: 203px;
     height: 92px;
