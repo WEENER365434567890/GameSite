@@ -14022,32 +14022,6 @@ body:not(.theme-preset-active) footer#colophon {
     object-fit: cover;
 }
 
-/* New styles for larger version */
-.game--width30 {
-    width: 50%; /* Set width to 50% of the parent container */
-    height: 328px; /* Doubled height */
-    border-radius: 1.5em; /* Slightly increased border radius */
-    overflow: hidden;
-}
-
-.game--width30 a {
-    color: #6bf8ff;
-}
-
-.game--width30 img,
-.game--width30 video {
-    width: 100%; /* Take up the entire width of the container */
-    height: 328px; /* Doubled height */
-    object-fit: cover;
-}
-
-/* Adjust positioning to prevent overlapping */
-.grid-item--width15 + .grid-item--width30,
-.grid-item--width15 + .grid-item--width15 {
-    margin-top: 32px; /* Increased margin to create spacing */
-}
-
-
 .game--width2 {
     width: 203px;
     height: 92px;
